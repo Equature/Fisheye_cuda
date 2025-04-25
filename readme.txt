@@ -8,9 +8,13 @@ fisheye_dewarper/
 │   ├── fisheye_dewarper.cu
 │   ├── main_window.cpp
 │   └── main.cpp
-└── resources/
-    ├── images/          # Sample fisheye images
-    └── styles/          # Optional QSS styles
+└── external/
+    └── nlohmann/include/json.hpp  # json library
+
+
+This project builds a library (fisheye_dewarper.a) from 3 files: fisheye_dewarper.cpp/.h/.cu
+The other files are used to create a Qt app that allows you to exercise the library.
+
 
 
 Key Features of This Setup:
