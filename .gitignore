@@ -1,0 +1,55 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.so
+*.dylib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Qt-specific build artifacts
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+*.pro.user*
+*.vcxproj.user*
+*.vcxproj.filters.user*
+*.cmake.*user*
+CMakeCache.txt
+CMakeFiles/
+build/
+dist/
+
+# Debug and Release build folders (adjust if your build system is different)
+debug/
+release/
+
+# Temporary files and backups
+*~
+*.swp
+*.bak
+*.tmp
+._*
+
+# Qt Creator auto-save files
+*.autosave
+
+# Deployment related
+*.dmg
+*.pkg
+
+# Other IDE specific files (if you use others)
+.vscode/
+.idea/
+nbproject/
+
+# OS generated files
+.DS_Store
+Thumbs.db
